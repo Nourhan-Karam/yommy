@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(0, 0, 0, 0.932);
+  overflow: hidden;
+}
+.side-nav-menu {
+  z-index: 99;
+}
+.nav-tap .links li {
+  padding: 10px;
+  position: relative;
+}
+.w-15 {
+  width: 15%;
+}
+i,
+li {
+  cursor: pointer;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.item .text {
+  position: absolute;
+  width: 100%;
+  right: 0%;
+  top: 110%;
+  left: 0%;
+  bottom: 0%;
+  transition: all 0.5s;
+  background-color: rgba(255, 255, 255, 0.618);
+}
+.item:hover .text {
+  top: 0;
+}
+.form-control{
+  color: white !important;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.416) !important;
+}
+.alert{
+  width: fit-content;
+}
+.loding-scren {
+  z-index: 999;
+  display: flex;
+}
+.inner-lodying-screen{
+  z-index: 9;
+  position: absolute;
+  display: flex;
+}
